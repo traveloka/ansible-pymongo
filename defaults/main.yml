@@ -1,0 +1,4 @@
+---
+# defaults file for pymongo
+
+pymongo_version: 3.3.0
