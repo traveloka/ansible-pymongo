@@ -1,0 +1,13 @@
+---
+# tasks file for pymongo
+
+- name: install pymongo
+  pip:
+    name: pymongo
+    version: "{{ pymongo_version }}"
+    state: present
+
+  become: yes
+  become_method: sudo
+  tags:
+    - pymongo
